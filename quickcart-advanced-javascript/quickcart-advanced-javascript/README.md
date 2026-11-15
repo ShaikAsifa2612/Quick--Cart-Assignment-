@@ -60,6 +60,6 @@ Add screenshots of the Part E DOM features here:
 - Bubbling and delegation: `screenshots/delegation.png`
 
 ## Submission Links
-- GitHub Repository: <your public repo URL>
-- Loom Video: <your Loom link>
-- Live Link: N.A
+- GitHub Repository: https://github.com/ShaikAsifa2612/Quick--Cart-Assignment-/edit/main/quickcart-advanced-javascript/quickcart-advanced-javascript/
+- Loom Video: https://www.loom.com/share/8090c84c2d094a9cb1a8f3a0d55f9c67
+- Live Link: https://quick-cart-assignment.vercel.app/quickcart-advanced-javascript/quickcart-advanced-javascript/part-e-optimization-events/
