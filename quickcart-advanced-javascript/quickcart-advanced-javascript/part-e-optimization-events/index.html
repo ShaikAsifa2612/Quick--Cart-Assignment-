@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuickCart - Optimization & DOM Events</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>QuickCart - Performance & DOM Events</h1>
+
+  <!-- Task 1: Debounce -->
+  <section>
+    <h2>Task 1: Debounced Search (500 ms)</h2>
+    <input type="text" id="searchInput" placeholder="Type to search products..." />
+    <p>Search log: <span id="searchResult">Nothing searched yet</span></p>
+  </section>
+
+  <!-- Task 2: Throttle -->
+  <section>
+    <h2>Task 2: Throttled Scroll (1000 ms)</h2>
+    <p>Scroll this page. Scroll handler count: <strong id="scrollCount">0</strong></p>
+    <p>Last scroll position: <span id="scrollPos">0</span> px</p>
+  </section>
+
+  <!-- Task 3: Memoization -->
+  <section>
+    <h2>Task 3: Memoized Discount</h2>
+    <input type="number" id="priceInput" placeholder="Price" value="1000" />
+    <input type="number" id="percentInput" placeholder="Discount %" value="10" />
+    <button id="calcBtn">Calculate</button>
+    <p>Result: <span id="discountResult">-</span></p>
+    <p>Source: <span id="discountSource">-</span></p>
+  </section>
+
+  <!-- Task 4: Bubbling and delegation -->
+  <section>
+    <h2>Task 4: Event Bubbling & Delegation</h2>
+    <label>
+      <input type="checkbox" id="stopToggle" />
+      Stop propagation on Remove click
+    </label>
+    <ul id="productList">
+      <li data-id="1">Laptop <button class="remove-btn">Remove</button></li>
+      <li data-id="2">Mouse <button class="remove-btn">Remove</button></li>
+      <li data-id="3">Keyboard <button class="remove-btn">Remove</button></li>
+    </ul>
+    <p>Event log:</p>
+    <ul id="eventLog"></ul>
+  </section>
+
+  <div class="scroll-space">Keep scrolling...</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
